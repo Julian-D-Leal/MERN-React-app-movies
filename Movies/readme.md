@@ -1,4 +1,4 @@
-### Página web de informacíon de peliculas
+# Página web de informacíon de peliculas
 
 Está página web fue realizada con ReactJS + vite 
 
