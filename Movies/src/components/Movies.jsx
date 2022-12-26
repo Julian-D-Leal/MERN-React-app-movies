@@ -26,7 +26,7 @@ export default function Movies() {
 
   const MoviesList = async () => {
     await axios
-      .get("http://localhost:5000/api/movies/list", {
+      .get("https://mernapirest-movies-production.up.railway.app/api/movies/list/", {
         headers: {
           "Content-Type": "application/json",
         },
@@ -46,7 +46,7 @@ export default function Movies() {
   const addMovie = async (item) => {
     const data = JSON.stringify(item);
     await axios
-      .post("http://localhost:5000/api/movies/add", data, {
+      .post("https://mernapirest-movies-production.up.railway.app/api/movies/add", data, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -64,7 +64,7 @@ export default function Movies() {
   const EditMovie = async (item) => {
     const data = JSON.stringify(item);
     await axios
-      .put("http://localhost:5000/api/movies/" + item._id + "/update", data, {
+      .put("https://mernapirest-movies-production.up.railway.app/api/movies/" + item._id + "/update", data, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -103,7 +103,7 @@ export default function Movies() {
 
 
   const deleteMovie = async (id) => {
-    await axios.delete("http://localhost:5000/api/movies/" + id + "/delete");
+    await axios.delete("https://mernapirest-movies-production.up.railway.app/api/movies/" + id + "/delete");
     setAlertD(true);
     setTimeout(() => {
       setAlertD(false);
