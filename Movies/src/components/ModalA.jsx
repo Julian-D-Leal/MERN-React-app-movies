@@ -32,7 +32,7 @@ export const ModalA = ({ toggle, modal, addMovie }) => {
 
   return (
     <Modal isOpen={modal} toggle={toggle}>
-      <ModalHeader toggle={toggle}>Agregar Pelicula</ModalHeader>
+      <ModalHeader toggle={toggle}>Agregar película</ModalHeader>
       <ModalBody>
         <Form>
           <FormGroup>
@@ -45,7 +45,7 @@ export const ModalA = ({ toggle, modal, addMovie }) => {
             />
           </FormGroup>
           <FormGroup>
-            <Label for='duration'>Duracion:</Label>
+            <Label for='duration'>Duración:</Label>
             <Input
               type='text'
               name='duration'
@@ -72,7 +72,7 @@ export const ModalA = ({ toggle, modal, addMovie }) => {
             />
           </FormGroup>
           <FormGroup>
-            <Label for='genres'>Generos:</Label>
+            <Label for='genres'>Géneros:</Label>
             <Input
               type='text'
               name='genres'

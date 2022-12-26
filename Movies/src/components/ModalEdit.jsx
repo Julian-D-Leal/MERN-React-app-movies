@@ -25,7 +25,7 @@ export const ModalEdit = ({ toggle, modalE, editMovie, activeItem }) => {
 
   return (
     <Modal isOpen={modalE} toggle={toggle}>
-      <ModalHeader toggle={toggle}>Actualizar pelicula</ModalHeader>
+      <ModalHeader toggle={toggle}>Actualizar película</ModalHeader>
       <ModalBody>
         <Form>
           <FormGroup>
@@ -39,7 +39,7 @@ export const ModalEdit = ({ toggle, modalE, editMovie, activeItem }) => {
             />
           </FormGroup>
           <FormGroup>
-            <Label for='duration'>Duracion:</Label>
+            <Label for='duration'>Duración:</Label>
             <Input
               type='text'
               name='duration'
@@ -69,7 +69,7 @@ export const ModalEdit = ({ toggle, modalE, editMovie, activeItem }) => {
             />
           </FormGroup>
           <FormGroup>
-            <Label for='genres'>Generos:</Label>
+            <Label for='genres'>Géneros:</Label>
             <Input
               type='text'
               name='genres'

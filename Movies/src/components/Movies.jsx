@@ -119,9 +119,9 @@ export default function Movies() {
           <Navbar.Brand href='#home'>Wombat Movies</Navbar.Brand>
         </Container>
       </Navbar>
-      {AlertE && <Alert variant='success'>Pelicula editada con éxito</Alert>}
-      {AlertA && <Alert variant='success'>Pelicula agregada con éxito</Alert>}
-      {AlertD && <Alert variant='danger'>Pelicula eliminada</Alert>}
+      {AlertE && <Alert variant='success'>Película editada con éxito</Alert>}
+      {AlertA && <Alert variant='success'>Película agregada con éxito</Alert>}
+      {AlertD && <Alert variant='danger'>Película eliminada</Alert>}
       <Button className='mt-3 mb-3' variant='success' onClick={() => toggle()}>
         Agregar pelicula
       </Button>

@@ -14,7 +14,7 @@ const ModalD = ({ toggle, modalD, delMovie, activeItem }) => {
       <Modal isOpen={modalD} toggle={toggle}>
       <ModalHeader toggle={toggle}>Advertencia</ModalHeader>
       <ModalBody>
-        ¿Está seguro de eliminar la pelicula {actual.name}?
+        ¿Está seguro de eliminar la película {actual.name}?
       </ModalBody>
       <ModalFooter>
         <Button variant="secondary" onClick={toggle}>
